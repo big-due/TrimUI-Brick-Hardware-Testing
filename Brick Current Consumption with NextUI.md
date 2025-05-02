@@ -81,6 +81,7 @@ Violet: Input Power (math trace calculated from input voltage * input current)
 
 ### Manually Increasing Static
 For the image below I started with all LEDs off, and increased the top bar brightness (white) from 0 to 100 roughly every second.  The peaks are the device registering and processing my button presses, followed by a period where you can see the increased current draw due to the increased LED brightness.
+
 <img src="images/LEDs_topbar_white_static_step_0_to_100.png"/>
 
 ## Key Findings 
