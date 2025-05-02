@@ -24,10 +24,10 @@ For testing the battery was disconnected completely.  I soldered an 8.87k resist
 | Pure Blue (100%)  | 295          | 61 mA (+26%)           |
 | Pure Green (100%) | 295          | 61 mA (+26%)           |
 | Pure Red (100%)   | 295          | 61 mA (+26%)           |
-| White (100%)      | 417          | 183 mA (+78%)          |
 | White (50%)       | 329          | 95 mA (+41%)           |
+| White (100%)      | 417          | 183 mA (+78%)          |
 
-### L&R LED Performance (White)
+### L&R (White)
 
 | Brightness | Current (mA) | Increase from Baseline |
 | ---------- | ------------ | ---------------------- |
@@ -35,13 +35,15 @@ For testing the battery was disconnected completely.  I soldered an 8.87k resist
 | 50%        | 262          | 21 mA (+9%)            |
 | 100%       | 282          | 41 mA (+17%)           |
 
-### F1 Key LED Performance (White)
+### F1(White)
 
 | Brightness | Current (mA) | Increase from Baseline |
 | ---------- | ------------ | ---------------------- |
 | 0%         | 241          | -                      |
 | 50%        | 265          | 24 mA (+10%)           |
 | 100%       | 287          | 46 mA (+19%)           |
+
+**Changes to F2 key brightness did nothing**
 
 ## Comparative Analysis at Maximum White Brightness
 
@@ -53,33 +55,33 @@ For testing the battery was disconnected completely.  I soldered an 8.87k resist
 
 ## LED modes (static, blink, etc.)
 
-Below are images of the current consumption in each of the LED operating modes. All captures were done using the TOP BAR set to 100 brightness, 1000 speed, and white.
+Below are images of the current consumption in each of the LED operating modes. All captures were done using the TOP BAR set to 100 brightness, 1000 speed, and white. It appears that the brightness setting sets the peak reached in each of these modes.
 
 Yellow: Input current
 Blue: Input voltage
 Violet: Input Power (math trace calculated from input voltage * input current)
 
 ### Static
-<img src="images/LEDs_topbar_white_static_100_1000.png" width=240 />
+<img src="images/LEDs_topbar_white_static_100_1000.png"/>
 
 ### Blink 1
-![[images/LEDs_topbar_white_blink1_100_1000.png]]
+<img src="images/LEDs_topbar_white_blink1_100_1000.png"/>
 
 ### Blink 2
-![[images/LEDs_topbar_white_blink2_100_1000.png]]
+<img src="images/LEDs_topbar_white_blink2_100_1000.png"/>
 
 ### Breathe
-![[images/LEDs_topbar_white_breathe_100_1000.png]]
+<img src="images/LEDs_topbar_white_breathe_100_1000.png"/>
 
 ### Interval Breathe
-![[images/LEDs_topbar_white_interval_breathe_100_1000.png]]
+<img src="images/LEDs_topbar_white_interval_breathe_100_1000.png"/>
 
 ### Linear
-![[images/LEDs_topbar_white_linear_100_1000.png]]
+<img src="images/LEDs_topbar_white_linear_100_1000.png"/>
 
 ### Manually Increasing Static
 For the image below I started with all LEDs off, and increased the top bar brightness (white) from 0 to 100 roughly every second.  The peaks are the device registering and processing my button presses, followed by a period where you can see the increased current draw due to the increased LED brightness.
-![[images/LEDs_topbar_white_static_step_0_to_100.png]]
+<img src="images/LEDs_topbar_white_static_step_0_to_100.png"/>
 
 ## Key Findings 
 
@@ -105,7 +107,9 @@ The increase in system current consumption goes up considerably in the last step
 |8|351|110 mA (+46%)|
 |9|374|133 mA (+55%)|
 |10|421|180 mA (+75%)|
-![[Pasted image 20250501202518.png]]
+
+<img src="images/screen_backlight_current.png"/> 
+
 ### Wi-Fi
 
 Wi-Fi has a relatively small impact on system power consumption:
@@ -120,16 +124,21 @@ Wi-Fi has a relatively small impact on system power consumption:
 
 ## Test Setup
 
-![[Pasted image 20250501203401.png]]
+<img src="images/test_setup_1.png" width=720 /> 
 
 Red and Black wires (lower right) are power connection on battery connector.  Orange, Yellow, and black wires going to upper left are hardware serial port.
-![[Pasted image 20250501203523.png]]Annotated:
+
+<img src="images/test_setup_brick_back.png" width=720 /> 
+
+Annotated:
 1. Main Regulator (CPU, etc)
 2. CPU
 3. Memory (it's on the main PCB, behind the USB-C connector on the shoulder button/LED/USB board)
 4. 5V boost is on the back side of the board in this area roughly (powers LEDs and most likely usb host port supply as well)
 5. Screen backlight supply
-![[Pasted image 20250501203600.png]]
+
+<img src="images/test_setup_brick_back_annotated.png" width=720 /> 
 
 Including this one just because I have it, the battery was disconnected and not used for this testing.
-![[Pasted image 20250501203759.png]]
+
+<img src="images/brick_battery.png" width=720 /> 
