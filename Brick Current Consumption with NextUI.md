@@ -60,26 +60,26 @@ Blue: Input voltage
 Violet: Input Power (math trace calculated from input voltage * input current)
 
 ### Static
-![[LEDs_topbar_white_static_100_1000 1.png]]
+![[images/LEDs_topbar_white_static_100_1000 1.png]]
 
 ### Blink 1
-![[LEDs_topbar_white_blink1_100_1000.png]]
+![[images/LEDs_topbar_white_blink1_100_1000.png]]
 
 ### Blink 2
-![[LEDs_topbar_white_blink2_100_1000.png]]
+![[images/LEDs_topbar_white_blink2_100_1000.png]]
 
 ### Breathe
-![[LEDs_topbar_white_breathe_100_1000.png]]
+![[images/LEDs_topbar_white_breathe_100_1000.png]]
 
 ### Interval Breathe
-![[LEDs_topbar_white_interval_breathe_100_1000.png]]
+![[images/LEDs_topbar_white_interval_breathe_100_1000.png]]
 
 ### Linear
-![[LEDs_topbar_white_linear_100_1000.png]]
+![[images/LEDs_topbar_white_linear_100_1000.png]]
 
 ### Manually Increasing Static
 For the image below I started with all LEDs off, and increased the top bar brightness (white) from 0 to 100 roughly every second.  The peaks are the device registering and processing my button presses, followed by a period where you can see the increased current draw due to the increased LED brightness.
-![[LEDs_topbar_white_static_step_0_to_100.png]]
+![[images/LEDs_topbar_white_static_step_0_to_100.png]]
 
 ## Key Findings 
 
