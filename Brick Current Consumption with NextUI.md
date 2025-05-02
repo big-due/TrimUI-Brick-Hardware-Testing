@@ -60,7 +60,7 @@ Blue: Input voltage
 Violet: Input Power (math trace calculated from input voltage * input current)
 
 ### Static
-<img src="images/LEDs_topbar_white_static_100_1000 1.png" width=240 />
+<img src="images/LEDs_topbar_white_static_100_1000.png" width=240 />
 
 ### Blink 1
 ![[images/LEDs_topbar_white_blink1_100_1000.png]]
