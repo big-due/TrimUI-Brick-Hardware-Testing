@@ -1,4 +1,4 @@
-# TrimUI Brick Testing Repository
+# TrimUI Brick Hardware Testing
 
 This repository contains testing results for the TrimUI Brick handheld gaming device, focusing on current consumption, battery life, and thermal performance.
 
