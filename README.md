@@ -10,7 +10,7 @@ This repository contains testing results for the TrimUI Brick handheld gaming de
 - The device's battery life is significantly affected by screen brightness and RGB LED settings, with the TOP BAR LEDs having the biggest impact. 
     - TOP BAR LEDs alone can reduce battery life by over 40%
     - All LEDs combined can reduce battery life by over 50%.
-- Similarly, the LEDs contribute substantiall to the device heating.
+- Similarly, the LEDs contribute substantially to the device heating.
     - LEDs alone can have a larger impact than gaming
 - WiFi has minimal impact.
 - For optimal battery life and thermal management, use 25% or lower LED brightness and 30% or lower screen brightness. 
