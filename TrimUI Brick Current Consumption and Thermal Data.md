@@ -1,6 +1,6 @@
 # TrimUI Brick: Power Consumption & Thermal Analysis Summary
 
-## Executive Summary
+## Summary
 
 This report summarizes extensive testing of the TrimUI Brick handheld gaming device, focusing on power consumption and thermal performance across various operating modes and settings. The testing examined the impact of RGB LEDs, screen brightness, WiFi connectivity, and different emulators on battery life and device temperature.
 
