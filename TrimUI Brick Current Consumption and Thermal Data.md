@@ -2,16 +2,16 @@
 
 ## Summary
 
-This report summarizes extensive testing of the TrimUI Brick handheld gaming device, focusing on power consumption and thermal performance across various operating modes and settings. The testing examined the impact of RGB LEDs, screen brightness, WiFi connectivity, and different emulators on battery life and device temperature.
+This report summarizes hardware testing of the TrimUI Brick, focusing on power consumption and thermal performance across various operating modes and settings. The testing examined the impact of RGB LEDs, screen brightness, wifi connectivity, and different emulators on battery life and device temperature.
 
 ## Device Specifications
 - **Battery**: 3000mAh (11.1Wh)
-- **Operating System**: NextUI 4.3.15
+- **CFW**: NextUI 4.3.10, NextUI 4.3.15 (STOCK OS 1.06)
 - **Board Revision**: 1.0
-- **Date Code**: 2024-09-30
+- **Board Date Code**: 2024-09-30
 
 ## Detailed Test Reports
-- [Brick Current Consumption with NextUI](Brick%20Current%20Consumption%20with%20NextUI.md) - Initial testing focusing on RGB LEDs, screen backlight, and WiFi
+- [Brick Current Consumption with NextUI](Brick%20Current%20Consumption%20with%20NextUI.md) - Initial testing focusing on RGB LEDs, screen backlight, and wifi
 - [Brick Current Consumption Followup](Brick%20Current%20Consumption%20followup.md) - Additional testing on device modes (off, sleep) and various emulators
 - [Brick Thermal Testing](Brick%20Thermal%20Testing.md) - Thermal imaging tests across various configurations
 
@@ -25,7 +25,7 @@ This report summarizes extensive testing of the TrimUI Brick handheld gaming dev
 | Screen Backlight | +180mA (+75%) | Major reduction |
 | L&R RGB LEDs | +41mA (+17%) | Moderate reduction |
 | F1 Key RGB LED | +46mA (+19%) | Moderate reduction |
-| WiFi | +7mA (+3%) | Minimal impact |
+| wifi | +7mA (+3%) | Minimal impact |
 
 ### Device Operating Modes
 

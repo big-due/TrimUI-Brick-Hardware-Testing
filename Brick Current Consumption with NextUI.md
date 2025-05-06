@@ -2,7 +2,7 @@
 
 ## Objective
 
-To evaluate the impact of the RGB LEDs on the current consumption of the TrimUI Brick running NextUI. The contribution of the screen backlight and WiFi were checked as well.
+To evaluate the impact of the RGB LEDs on the current consumption of the TrimUI Brick running NextUI. The contribution of the screen backlight and wifi were checked as well.
 
 ## Table of Contents
 - [Objective](#objective)

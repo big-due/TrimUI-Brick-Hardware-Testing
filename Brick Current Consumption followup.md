@@ -1,6 +1,6 @@
 # Current Consumption in TrimUI Brick Followup
 
-This is a continuation of previous current consumption testing done with a focus primarily on the contribution of the RGB LEDs, screen backlight, and WiFi.
+This is a continuation of previous current consumption testing done with a focus primarily on the contribution of the RGB LEDs, screen backlight, and wifi.
 
 The new testing included here focuses primarily on various device modes (off, sleep, etc) and in a limited selection of games and emulators.
 
