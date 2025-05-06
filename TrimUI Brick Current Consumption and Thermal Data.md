@@ -71,7 +71,7 @@ There is a direct relationship beteween increased current consumption and reduce
 - A 75% increase from maximum screen brightness would result in approximately a 43% reduction in battery life
 
 ### Thermal Behavior
-The thermal testing reveals that LED brightness settings can have a more significant impact on device temperature than gaming in some cases. With all LEDs at maximum, the device temperature increased by 9°C after 20 minutes - only slightly higher than running SUPA emulator with modest LED and screen brightness.
+The thermal testing reveals that LED brightness settings can have a more significant impact on device temperature than gaming in some cases. With all LEDs at maximum, the device temperature increased by 9°C after 20 minutes - slightly higher than running SUPA emulator with modest LED and screen brightness.
 
 The TOP BAR LEDs are significant heat contributors, causing a 7.9°C temperature increase on their own at maximum brightness, compared to a 6.2°C increase from all other LEDs combined at maximum brightness. For comparison, running SUPA with LEDs off led to an increase of 6.3°C.
 
