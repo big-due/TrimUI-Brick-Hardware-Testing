@@ -6,7 +6,7 @@ This repository contains testing results for the TrimUI Brick handheld gaming de
 
 *Figure 1: TrimUI Brick with USB and hardware serial interface added and connected*
 
-## TLDR
+## Key Findings
 - The device's battery life is significantly affected by screen brightness and RGB LED settings, with the TOP BAR LEDs having the biggest impact. 
     - TOP BAR LEDs alone can reduce battery life by over 40%
     - All LEDs combined can reduce battery life by over 50%.
