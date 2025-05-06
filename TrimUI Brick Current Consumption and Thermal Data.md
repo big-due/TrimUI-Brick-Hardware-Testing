@@ -10,6 +10,11 @@ This report summarizes extensive testing of the TrimUI Brick handheld gaming dev
 - **Board Revision**: 1.0
 - **Date Code**: 2024-09-30
 
+## Detailed Test Reports
+- [Brick Current Consumption with NextUI](Brick%20Current%20Consumption%20with%20NextUI.md) - Initial testing focusing on RGB LEDs, screen backlight, and WiFi
+- [Brick Current Consumption Followup](Brick%20Current%20Consumption%20followup.md) - Additional testing on device modes (off, sleep) and various emulators
+- [Brick Thermal Testing](Brick%20Thermal%20Testing.md) - Thermal imaging tests across various configurations
+
 ## Key Findings
 
 ### Power Consumption Impact by Feature
