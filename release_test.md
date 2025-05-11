@@ -65,3 +65,12 @@ RMS values extracted from scope captures:
 | SFC      | 406               | 454                  | +11.8%         |
 | SUPA     | 465               | 501                  | +7.7%          |
 
+| Emulator | Original Release | New Release |
+|----------|-----------------|-------------|
+| GB | ![](images/nextui_gb_supermarioland2.png) | ![](images/newrelease/newrelease_gb.png) |
+| GBA | ![](images/nextui_gba_supermarioadvance2.png) | ![](images/newrelease/newrelease_gba.png) |
+| MGBA | ![](images/nextui_mgba_supermarioadvance2.png) | ![](images/newrelease/newrelease_mgba.png) |
+| GBC | ![](images/nextui_gbc_supermariobrosdelux.png) | ![](images/newrelease/newrelease_gbc.png) |
+| FC | ![](images/nextui_fc_supermariobros.png) | ![](images/newrelease/newrelease_fc.png) |
+| SFC | ![](images/nextui_sfc_supermarioworld.png) | ![](images/newrelease/newrelease_sfc2.png) |
+| SUPA | ![](images/nextui_supa_supermarioworld.png) | ![](images/newrelease/newrelease_supa.png) |
